@@ -1,3 +1,4 @@
+# Importing random module depending on user decision! 
 import time as tm
 # Well known 32 bit LCRNG with maximum period. Use the top half, especially when multiples of 2 are involved
 LCRNG_mult = 0x41C64E6D
