@@ -1,0 +1,15 @@
+Leaving on a train in a little bit, didn't get nearly as much out of this as I wanted to, but I think I still completed the assignment.
+
+Anyway, the bar plot demonstrates a skew towards Sunday data (Sunday = 0, Monday = 1, etc.), which is a reflection of my data collection process:
+Not only did I have more time to collect data on Sunday, but I actively sought out data donors on Sunday, because the buyables are more complex and varied on Sunday specifically.
+
+The box plots demonstrate version-dependence for lottery number ranges. "Old" Lottery numbers have a maximum of 65535, while new ones have a max of 99999.
+
+My two scatter plots demonstrate a correlation between the Group Seed and Daily Seed for each entry. The first plot displays data collected from debug copies of the game.
+These debug entries have a perfect linear correlation between Group Seed and Daily Seed. There is generally no distinction. Furthermore, Debug group seeds are 64 bit, while normal group seeds are 32 bit.
+I also collected significantly less debug than I did normal group seed data. Normal group seed data is almost linear, except for a sign change halfway through. Seems that daily seeds are generally the absolute value of group seeds.
+
+Finally, the pie charts reveal information about the game progress of my sample size: An overwhelming majority of them had claimed the national dex, and obtained the TM for defog. 
+And about half of them had 8 badges. I intentionally searched for participants with low badge counts to round out my data, and the defog TM discovery occurred very late in my data collection process. 
+Also, my data came from here, I collected it myself, and compiled it in this view-only google sheet: https://docs.google.com/spreadsheets/d/1qgRaKukh3i_j0lX1pFv5i5wUeeg3AO5NaUwDRtPlWno/edit#gid=42529558
+I heavily commented segments of my code with further information, I suggest checking that out too! 
